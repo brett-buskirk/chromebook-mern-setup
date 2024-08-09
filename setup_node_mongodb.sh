@@ -41,7 +41,3 @@ sudo systemctl start mongod
 sudo systemctl enable mongod  # Enable on boot
 
 echo "Setup completed successfully!"
-
-# == NOTES ==
-# Script must be made executable with: chmod +x setup_node_mongodb.sh
-# It can then be run with: ./setup_node_mongodb.sh
