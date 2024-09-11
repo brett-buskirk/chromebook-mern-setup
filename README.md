@@ -11,6 +11,14 @@ This script streamlines the process of setting up a MERN (MongoDB, Express.js, R
 - **Linux (Beta) Enabled:** Ensure you have the Linux (Beta) feature enabled on your Chromebook.
 - **Terminal Access:** You'll need access to the Linux terminal.
 
+## Before you Begin
+
+This script requires certain packages to be installed. To ensure you have the latest versions, please run the following command in your terminal:
+
+```shell
+sudo apt update
+```
+
 ## Usage
 
 1. **Clone the Repository:**
