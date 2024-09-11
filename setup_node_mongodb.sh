@@ -4,9 +4,6 @@
 
 echo "Starting Node.js, npm, and MongoDB setup..."
 
-# Update Package Lists
-sudo apt update -y && sudo apt upgrade -y || exit 1
-
 # Install Node.js and NPM
 echo "Installing Node.js and npm..."
 sudo apt install -y nodejs npm || exit 1
