@@ -38,12 +38,7 @@ When you run this command, it does the following:
    cd mern-on-chromeos
    ```
 
-2. **Make the Script Executable:**
-   ```bash
-   chmod +x setup_node_mongodb.sh
-   ```
-
-3. **Run the Script:**
+2. **Run the Script:**
    ```bash
    ./setup_node_mongodb.sh
    ```
