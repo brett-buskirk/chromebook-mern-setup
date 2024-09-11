@@ -19,6 +19,17 @@ This script requires certain packages to be installed. To ensure you have the la
 sudo apt update
 ```
 
+When you run this command, it does the following:
+
+1. **Retrieves Package Information:** It connects to the configured software repositories (sources listed in `/etc/apt/sources.list` and files in `/etc/apt/sources.list.d/`) and downloads the latest package lists.
+ 
+2. **Updates Local Database:** It updates the local package database with the latest information about available packages and their versions. This includes information about new packages, updated packages, and packages that have been removed from the repositories.
+
+**In simpler terms:** It refreshes your system's knowledge about what software is available to install or update. 
+
+**Important Note:** It does NOT actually install or upgrade any packages. To do that, you would run `sudo apt upgrade` or `sudo apt install <package_name>`. 
+
+
 ## Usage
 
 1. **Clone the Repository:**
